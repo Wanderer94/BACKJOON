@@ -22,7 +22,7 @@ for m in range(M): # 어느 행에서 시작할 것인가?
                 # 입력받은 수들의 범위 안에서 가능한 수열 추출
                 while (0 <= x < M) and (0 <= y < N):
                     # 숫자 조합을 하고
-                    value += str(numbers[x][y]))
+                    value += str(numbers[x][y])
                     step += 1
  
                     # 제곱수이고, 최댓값 갱신이 가능한지 확인
