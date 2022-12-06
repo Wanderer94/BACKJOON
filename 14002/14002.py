@@ -13,7 +13,7 @@ for i in range(N):
             c_list.append(A[j])
     if len(c_list) > len(n_list):
         n_list = c_list
-    print(n_list)
+    #print(n_list)
 print(len(n_list))
 print(n_list)
 
